@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.top-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.title{
+    padding :10px;
+    font-size: large;
+}
+
+.dot{
+    color: #4273CD;
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu{
+    padding: 10px;
+}
+.dashboard{
+    padding:10px 10px;
+    background-color: #4B80E3;
+    border-radius:20px;
+    line-height: 1
+}
+
+.toggle{
+    position: relative;
+    overflow: hidden;
+    width: 20px;
+    cursor: pointer;
+} 
+
+.image_toggle {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    transition: opacity 0.5s ease;
+    scale: 1.5;
+}
+
+#image2 {
+    opacity: 0;
+}
+
+.toggleView{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.grid_view,.list_view{
+    width: 50%;
+    display: flex;
+}
+
+.grid_view button,.list_view button{
+    width: 100%;
+    margin: auto;
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.toggleView{
+    font-size: larger;
+}
+
+.underline{
+    border-bottom: solid 2px #7CC678;
+}
+
+
+/* card styling */
+
+.grid_container{
+    padding : 40px 120px;   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+
+.card{
+    box-sizing: border-box;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1a1a1B;
+    padding: 15px 15px;
+    border-radius: 5px;
+}
+
+.card_top{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.card_top img{
+    border-radius: 50%;
+}
+
+.card_top .name{
+    padding-left: 10px;
+}
+
+.card_top .name1{
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 0;
+}
+
+.card_top .name2{
+    margin-top: 3px;
+    font-size: small;
+    color: #888888;
+}
+
+.percent{
+    padding: 5px 10px;
+    color: #7CC678;
+    border: solid 2px #7CC678;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.value{
+    font-size: large;
+    font-weight: bolder;
+    color: #7CC678;
+    padding: 10px 0px;
+}
+
+.details{
+    font-size: small;
+    color:#888888 ;
+}
+
+
+/* list view */
+
+.list_container{
+    padding : 40px 120px;   
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+.crypto_row{
+    box-sizing: border-box;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    padding: 15px 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card_left{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.card_left img{
+    border-radius: 50%;
+}
+
+.card_left .list_name{
+    padding-left: 10px;
+}
+
+.card_left .list_name1{
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 0;
+}
+
+.card_left .list_name2{
+    margin-top: 3px;
+    font-size: small;
+    color: #888888;
+}
+
+.list_percent{
+    padding: 5px 10px;
+    color: #7CC678;
+    border: solid 2px #7CC678;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.list_value{
+    font-size: large;
+    font-weight: bolder;
+    color: #7CC678;
+    padding: 10px 0px;
+}
+
